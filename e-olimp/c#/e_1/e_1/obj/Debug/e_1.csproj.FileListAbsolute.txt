@@ -1,0 +1,6 @@
+C:\Users\SRigh\Documents\study\e-olimp\c#\e_1\e_1\bin\Debug\e_1.exe.config
+C:\Users\SRigh\Documents\study\e-olimp\c#\e_1\e_1\bin\Debug\e_1.exe
+C:\Users\SRigh\Documents\study\e-olimp\c#\e_1\e_1\bin\Debug\e_1.pdb
+C:\Users\SRigh\Documents\study\e-olimp\c#\e_1\e_1\obj\Debug\e_1.csprojResolveAssemblyReference.cache
+C:\Users\SRigh\Documents\study\e-olimp\c#\e_1\e_1\obj\Debug\e_1.exe
+C:\Users\SRigh\Documents\study\e-olimp\c#\e_1\e_1\obj\Debug\e_1.pdb
