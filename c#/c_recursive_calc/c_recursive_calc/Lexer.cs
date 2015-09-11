@@ -6,7 +6,7 @@ namespace c_recursive_calc
 {
     class Lexer : ILexer
     {
-        public static string[] operators = new []{ "+", "-", "*", "/", "^", "(", ")" };
+        public static string[] operators = new []{ "+", "-", "*", "/", "^", "(", ")"};
         public List<Token> Lex(string str)
         {
             List<Token> TokenList = new List<Token>();

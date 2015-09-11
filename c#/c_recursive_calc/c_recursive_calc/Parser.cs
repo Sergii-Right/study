@@ -64,14 +64,26 @@ namespace c_recursive_calc
 
         public INode Power()
         {
-            INode node = Term();
+            INode node = Unary();
             while (true)
             {
                 if (Accept("^"))
-                    node = new BinaryNode(node, Term(), '^');
+                    node = new BinaryNode(node, Unary(), '^');
                 else
                     break;
             }
+            return node;
+        }
+
+        public INode Unary()
+        {
+            INode node = null;
+            if (Accept("+"))
+                node = Term();
+            else if (Accept("-"))
+                node = new BinaryNode(new ValueNode(0), Term(), '-');
+            else
+                node = Term();
             return node;
         }
 
