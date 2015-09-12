@@ -1,0 +1,6 @@
+C:\Users\SRigh\Documents\study\c#\c_recursive_calc\c_recursive_calc\bin\Debug\c_recursive_calc.exe.config
+C:\Users\SRigh\Documents\study\c#\c_recursive_calc\c_recursive_calc\bin\Debug\c_recursive_calc.exe
+C:\Users\SRigh\Documents\study\c#\c_recursive_calc\c_recursive_calc\bin\Debug\c_recursive_calc.pdb
+C:\Users\SRigh\Documents\study\c#\c_recursive_calc\c_recursive_calc\obj\Debug\c_recursive_calc.csprojResolveAssemblyReference.cache
+C:\Users\SRigh\Documents\study\c#\c_recursive_calc\c_recursive_calc\obj\Debug\c_recursive_calc.exe
+C:\Users\SRigh\Documents\study\c#\c_recursive_calc\c_recursive_calc\obj\Debug\c_recursive_calc.pdb
