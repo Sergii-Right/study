@@ -30,14 +30,13 @@ class Lexer implements ILexer
             {
                 while($iter < strlen($str) && is_numeric($str[$iter]))
                 {
-                    $token->text += $str[$iter++];
+                    $token->text .= $str[$iter++];
                     $token->id = $token->tokenId['number'];
                 }
             }
             else
             {
-                $token->text += $str[$iter++];
-                echo $token->text;
+                $token->text = $str[$iter++];
                 if(array_search($token->text,$this->operators))
                     $token->id = $token->tokenId['operator'];
                 else
@@ -49,6 +48,3 @@ class Lexer implements ILexer
         return self::$TokenList;
     }
 }
-
-$l = new Lexer();
-$l->Lex("1+2-3/4* 5");
